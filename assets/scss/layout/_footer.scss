@@ -2,3 +2,10 @@
   background: #f0f3f5;
   border-top: 1px solid #d1d9e1;
 }
+
+@media (max-width: 768px) {
+  .navbar-nav .nav-item {
+    flex: 0 0 33.33%; /* 每行最多三個選項 */
+    text-align: center;
+  }
+}
